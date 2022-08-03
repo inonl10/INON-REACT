@@ -1,0 +1,14 @@
+.grid_cards {
+    display: grid;
+    margin: 32px;
+    width: fit-content;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+}
+
+@media only screen and (max-width:700px) {
+    .grid_cards {
+        grid-template-columns: 1fr 1fr;
+    }
+}
